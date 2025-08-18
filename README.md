@@ -53,25 +53,32 @@ Para conocer como instalarlo correctamente en tu ordenador, te recomiendo este p
 
 <img width="765" height="238" alt="image" src="https://github.com/user-attachments/assets/bbd6039d-fa01-4906-8e2f-2061a8ed91f0" />
 
-<h6 align="center">
-⚙️ Ejecutando las pruebas ⚙️
+<h6 align="center"> 
+ ## :hammer: Funcionalidades del proyecto
 </h6>
 
+- `Funcionalidad 1`: Crear Array para que se almacenen los nombres
+- `Funcionalidad 2`: Función para agregar nombres a sortear
+- `Funcionalidad 3`: Función para actualizar la lista de nombres a sortear
+- `Funcionalidad 4`: Función para sortear los nombres
 
 
-
-
-
-
-
-
-
-
-
-
-<h7 align="center">
-✒️ Mentores ✒️
+<h7 align="center"> 
+⚙️ Ejecutando las pruebas ⚙️
 </h7>
+
+-  
+
+
+
+
+
+
+
+
+<h8 align="center">
+✒️ Mentores ✒️
+</h8>
 
 Con mucho agradecimiento por el conocimiento impartido a los tutores de Alura Latam: 
 
