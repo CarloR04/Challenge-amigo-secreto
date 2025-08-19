@@ -130,21 +130,38 @@ Debes dar clic derecho en la esquina superior, buscar herramientas de desrroolla
 
  - Funcionalidad 4:
 
-   
-   
-    
+   <img width="854" height="593" alt="image" src="https://github.com/user-attachments/assets/c70d919e-000e-45e8-895a-bea3fb7d9b3f" />
 
+   - Como primer paso creados dos listas adicionales, que seran necesarias en la función, se ubican al inico del codigo junto a la lista original que guarda los nombres que ingresa el usuario.
 
+     <img width="583" height="77" alt="image" src="https://github.com/user-attachments/assets/044ed866-9184-4337-a321-5101b10e393e" />
 
+   - Luego, nombramos la función y definimos una variable que escoja un nombre aleatoriamente de la primera lista origen.
+     
+     <img width="575" height="99" alt="image" src="https://github.com/user-attachments/assets/8b2e599d-dc5d-4bdc-a23b-31318b9186e4" />
 
+   - Ahora, con ayuda de un if-else anidado creamos las condiciones a evaluar:
+     - Que primero no permita sortear nombres sin que se haya ingresado algun nombre.
+     - Que en dado caso ya hayan nombres a sortear, entonces que no repita nombres al sortearlos, que solo pueda salir un nombre una sola vez.
+     - Que nos muestre el nombre que se sorteo y al mimso tiempo actualice la lista de nombres que se muestra en pantalla eliminando el que ya fue sorteado.
 
+       <img width="859" height="310" alt="image" src="https://github.com/user-attachments/assets/35debb88-1cf6-48d5-b1af-3afd53ae061b" />
 
+   - Para validar que lo evaluado en la condición anidada se cumpla, activar los console.log para que miren los resultado en la consola del desarrollador.
+     
+     <img width="793" height="85" alt="image" src="https://github.com/user-attachments/assets/2505bc19-10cd-4bfd-ae20-5b8b62cfe4ff" />
 
+   - Por ultimo, cuando ya se hayan sorteado todos los nombres, que se agreguen en el mensaje que aparece en pantalla esata información junto al ultimo nombre sorteado.
 
+     <img width="827" height="124" alt="image" src="https://github.com/user-attachments/assets/b5f40e2b-34dd-4414-b816-fa112455167c"/>
 
-
-
-
+   - Como algo extra, se agrego un desactivación del botón sortear para cuando se hayan sorteado todos los nombres.
+     
+     <img width="814" height="21" alt="image" src="https://github.com/user-attachments/assets/a21bb187-89ed-4dbb-a1a1-bdb5611230a0" />
+     
+     Pero recuerda que primero debes declarar al boton haciendo conexión con el elemento html que lo contiene, para que pueda funcionar.
+     
+     <img width="466" height="47" alt="image" src="https://github.com/user-attachments/assets/98ebab26-8f41-4018-9bd2-189f57c13e0b" />
 
 
 <h8 align="center">
