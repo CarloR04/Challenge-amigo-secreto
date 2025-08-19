@@ -67,7 +67,78 @@ Para conocer como instalarlo correctamente en tu ordenador, te recomiendo este p
 ⚙️ Ejecutando las pruebas ⚙️
 </h7>
 
--  
+Para poder visualizar el funcionamiento del codigo, primero debes abrir el archivo .html en el navegador, como se muestra en la imagen. 
+
+<img width="739" height="292" alt="image" src="https://github.com/user-attachments/assets/e4aa24c9-0b40-488a-91e9-94de1c6ce7c6" />
+
+
+Luego, debes dejar abierta la vista de la consola del desarrollador para validar las salidas que nos debe dar el codigo. 
+Debes dar clic derecho en la esquina superior, buscar herramientas de desrroollar y al dar clic, se te abribar la ventana señalada en rojo ques es la consola. 
+
+<img width="1370" height="768" alt="image" src="https://github.com/user-attachments/assets/b8437efc-ce90-4e3a-a19b-280d088f344e" />
+
+- Funcionalidad 1: Se crea la lista, donde se van a agregar más adelante los nombres que ingrese el usurio. Hasta el momento esta lista no esta definida y esta vacia. 
+
+<img width="433" height="49" alt="image" src="https://github.com/user-attachments/assets/424b4bc0-ae63-41ac-8a69-fe7e84095096" />
+
+- Funcionalodad 2:
+  
+<img width="679" height="519" alt="image" src="https://github.com/user-attachments/assets/a0ce76df-564d-4cb6-be9a-89925e3aae50" />
+
+   - Como primer paso, le asignamos nombre a función, recuerda que para activarla esta debe ser llamada al final, para nuestro caso la llamos en el return al final luego de la condición if-else.
+     
+     <img width="296" height="19" alt="image" src="https://github.com/user-attachments/assets/678d6e2a-21da-454f-9f1d-fa5fc96648eb" />
+     <img width="229" height="34" alt="image" src="https://github.com/user-attachments/assets/8e2afe22-e672-491c-b55f-51080422c9cd" />
+
+   - Como segun paso, asignamos una variable para que capture el elemento dentro del html, que hace referencia a la caja de texto donde se ingresan los nombres por el usurio. Recuerda que si dentro del html no existe un id, debes crearlo para realizar la conexión.
+     
+     <img width="563" height="22" alt="image" src="https://github.com/user-attachments/assets/9b829814-c3ad-44ac-8f89-13393ff09021" />
+
+   - Para limitar a que solo se permitan texto, en JS usamos la "Expresión Regular" asignadosela a una variable para luego usarla en nuestro condicional.
+     
+     <img width="551" height="47" alt="image" src="https://github.com/user-attachments/assets/6cd8a583-3d46-4566-a158-9a33bc8903e2" />
+
+   - Como siguiente paso, realizamos un condicional if-else para definir que si se cumple con la limitante de la expresión regular se permita anexar el nombre de la lista, de lo contrario que lance una aleta que no es permitido.
+     
+     <img width="591" height="271" alt="image" src="https://github.com/user-attachments/assets/5c7285d6-9190-4b76-be8a-2c9836864ffb" />
+     
+   - Para validar que la condición se ejecuta como es debido, el codigo contiene unos console.log que les permitira ver en la consola el imput que ingresa el usurio. Quitarle la etiqueta de texto para que puedan ser leido como codigo.
+     
+     <img width="564" height="105" alt="image" src="https://github.com/user-attachments/assets/3829d363-3742-40dc-9616-623fc30a976d" />
+     
+
+- Funcionalodad 3:
+
+  <img width="682" height="370" alt="image" src="https://github.com/user-attachments/assets/2bb5eb59-14a3-49a8-b833-d729ec87884d" />
+
+  - Como primer paso, antes de crear la función que actualice el nombre agregado por el usuario, primero creamos una función que nos ayuda a limpiar la caja de texto cada vez que se ingresa un nombre.
+
+    <img width="462" height="77" alt="image" src="https://github.com/user-attachments/assets/e1a04dde-4461-4e9c-a1d3-b9488886628c" />
+
+  - Luego, procedemos a crear la función que actualiza los nombres que agrega el usurio, primero limpiamos la lista dentro del HTML donde se guardan los nombres.
+
+    <img width="445" height="98" alt="image" src="https://github.com/user-attachments/assets/4b3de060-603b-4c05-9be2-c917b73784c2" />
+
+  - Con un bucle For, definimos que que se cree un elemento Li que se muestre en la pantalla del navegador para cada nombre que se ingresado por el usurio.
+
+    <img width="652" height="153" alt="image" src="https://github.com/user-attachments/assets/38673928-b54a-4c45-ac71-470446d55d78" />
+
+  - Por ultimo, para que lo anterior se ejecute lo tenemos que llamar dentro de la función anterior para que se ejecuten siempre y cuando los nombres sean aceptados segun la condición limitante de texto.
+
+    <img width="630" height="96" alt="image" src="https://github.com/user-attachments/assets/e0e83bfe-b4b6-42b6-8191-33104e2ce643" />
+
+
+ - Funcionalidad 4:
+
+   
+   
+    
+
+
+
+
+
+
 
 
 
